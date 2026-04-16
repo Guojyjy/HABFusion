@@ -1,0 +1,27 @@
+name: habfusion
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pyproj
+  - geopy
+  - timm
+  - jupyterlab
+  - numpy=1.26
+  - scipy
+  - scikit-learn
+  - imbalanced-learn
+  - lightgbm
+  - pandas
+  - matplotlib
+  - seaborn
+  - pytorch
+  - torchvision
+  - torchaudio
+  - tensorboard
+  - pip
+  - pip:
+      - pandas-stubs==2.2.3.250308
+      - wandb
+      - gdown
